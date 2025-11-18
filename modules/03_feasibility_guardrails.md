@@ -1,3 +1,5 @@
+  > Change Log (2025-11-18): – Added "Peak-Time Avoidance" - LLM will now generate an itinerary that avoids busy/crowded times.
+
 Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
 
 1. **Closed Venue**
@@ -24,3 +26,8 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 8. **Bookings**
   
   * If activity usually needs a ticket → just remind the user to book it; never simulate bookings.
+
+9. **Peak-Time Avoidance**
+  
+  * If an activity or restaurant is  crowded at the planned time → suggest an earlier or later slot, or an alternative less-crowded option to reduce waiting and improve experience.
+
